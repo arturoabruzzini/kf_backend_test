@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "rootDir": "src",
+        "allowSyntheticDefaultImports": true,
+    },
+    "lib": [
+        "es2021"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+}
